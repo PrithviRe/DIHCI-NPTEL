@@ -2703,6 +2703,10 @@
     "prompt": "In ____________, we assign some (arbitrary) codes to attributes of observational data.",
     "options": [
       {
+        "id": "a",
+        "text": "nominal"
+      },
+      {
         "id": "b",
         "text": "ordinal"
       },
@@ -2718,7 +2722,7 @@
     "correctAnswers": [
       "a"
     ],
-    "explanation": "**Why it's Correct:** Option A ('1 Point' - Nominal scale) is correct because assigning arbitrary numerical or symbolic codes to observational attributes without any mathematical order or magnitude (e.g. 1 = Male, 2 = Female, or 1 = Mouse, 2 = Touchpad) is the definition of a Nominal Measurement Scale. (Note: Option A is the official accepted key in NPTEL).\n\n**Why Other Options are Incorrect:** Ordinal data (Option B) conveys ranked order (e.g. 1st, 2nd, 3rd). Interval data (Option C) has equal distances between points. Ratio data (Option D) has a true zero point.\n\n**Course Context:** Stevens' four levels of measurement are: Nominal, Ordinal, Interval, and Ratio."
+    "explanation": "**Why it's Correct:** Option A (nominal) is correct because assigning arbitrary numerical or symbolic codes to categories/attributes of observational data without any quantitative magnitude or intrinsic rank order (e.g., 1 = Male, 2 = Female, or 1 = Mouse, 2 = Touchpad) is the textbook definition of a Nominal Measurement Scale.\n\n**Why Other Options are Incorrect:** Ordinal data (Option B) represents ranked order (1st, 2nd, 3rd) without equal intervals. Interval data (Option C) has equal distances between points but an arbitrary zero point (like Celsius temperature). Ratio data (Option D) possesses a true absolute zero point (like task completion time in seconds or error count).\n\n**Course Context:** Stanley Smith Stevens (1946) established the four foundational levels of measurement: Nominal, Ordinal, Interval, and Ratio, which dictate what statistical tests (parametric vs. non-parametric) can be performed."
   },
   {
     "id": "w11_q6",
@@ -2728,6 +2732,10 @@
     "prompt": "Recording data from a thermometer is an example of interval scaled data.",
     "options": [
       {
+        "id": "a",
+        "text": "True"
+      },
+      {
         "id": "b",
         "text": "False"
       }
@@ -2735,7 +2743,7 @@
     "correctAnswers": [
       "a"
     ],
-    "explanation": "**Why it's Correct:** Option A is correct because temperature measured on a thermometer (Celsius or Fahrenheit) is the textbook definition of Interval Scaled Data: distances between degrees are equal, but the zero point (0\u00b0C) is arbitrary and does not represent the complete absence of heat.\n\n**Why Other Options are Incorrect:** Option B ('False') is incorrect because Celsius/Fahrenheit temperature is universally classified as interval data (unlike Kelvin which is ratio scale).\n\n**Course Context:** Because interval data lacks an absolute zero, you can state that 30\u00b0C is 10\u00b0 warmer than 20\u00b0C, but NOT that 30\u00b0C is 'twice as hot' as 15\u00b0C."
+    "explanation": "**Why it's Correct:** Option A (True) is correct because temperature measured on a standard thermometer (in degrees Celsius or Fahrenheit) is the quintessential textbook example of Interval Scaled Data. The distance between 10\u00b0C and 20\u00b0C is identical to that between 20\u00b0C and 30\u00b0C (equal intervals), but 0\u00b0C is an arbitrary reference freezing point, not the absolute absence of heat.\n\n**Why Other Options are Incorrect:** Option B (False) is incorrect because temperature scales (except Kelvin, which is ratio) fit the strict mathematical criteria of interval scale.\n\n**Course Context:** Understanding interval scales is crucial in HCI because subjective user ratings on Likert scales (e.g., SUS questionnaires from 1 to 5) are frequently treated as interval-level data for calculating means and standard deviations."
   },
   {
     "id": "w11_q7",
