@@ -1,0 +1,3086 @@
+[
+  {
+    "id": "w1_q1",
+    "assignmentWeek": 1,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "While we talk about the evaluation phases of the computer, ______ is called the modern age of computers.",
+    "options": [
+      {
+        "id": "a",
+        "text": "1985 onwards"
+      },
+      {
+        "id": "b",
+        "text": "1998 onwards"
+      },
+      {
+        "id": "c",
+        "text": "2007 onwards"
+      },
+      {
+        "id": "d",
+        "text": "2011 onwards"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D (2011 onwards) is correct because in the historical evolution of interactive computing taught in the course, computing eras are segmented into: pre-1985 (batch/mainframe), 1985-1998 (GUI and desktop PC), 1998-2007 (Internet and web age), 2007-2011 (mobile revolution), and 2011 onwards representing the 'modern age' of ubiquitous, cloud-connected, wearable, and AI-assisted smart computing devices.\n\n**Why Other Options are Incorrect:** Options A, B, and C represent earlier transitional milestones (1985 ushered in commercial desktop GUIs; 1998 marked ubiquitous web/browser adoption; 2007 launched the modern multi-touch smartphone era), not the 'modern age'.\n\n**Course Context:** Understanding the evolutionary timeline highlights how user expectations shifted from system-centric batch processing to seamless, context-aware ubiquitous interaction."
+  },
+  {
+    "id": "w1_q2",
+    "assignmentWeek": 1,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "Which among the following is NOT a generic category of users?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Novice"
+      },
+      {
+        "id": "b",
+        "text": "Super knowledgeable"
+      },
+      {
+        "id": "c",
+        "text": "Intermittent"
+      },
+      {
+        "id": "d",
+        "text": "Expert"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Super knowledgeable') is correct because it is NOT a recognized generic user category in HCI literature. The three foundational categories of users established by Ben Shneiderman and standard HCI taxonomy are: Novice (first-time/unfamiliar), Intermittent (casual/occasional with knowledge decay), and Expert (frequent, power users seeking high efficiency).\n\n**Why Other Options are Incorrect:** Options A, C, and D are the classic standard user categories defined across software engineering and interaction design.\n\n**Course Context:** Different user categories require distinct interface accommodations: novices need visible constraints and signifiers, intermittent users need clear recognition cues, and experts need shortcuts and accelerators."
+  },
+  {
+    "id": "w1_q3",
+    "assignmentWeek": 1,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "In the Spiral Model, why is the second quadrant crucial for interactive software development?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It defines the UI layout"
+      },
+      {
+        "id": "b",
+        "text": "It finalizes the system architecture"
+      },
+      {
+        "id": "c",
+        "text": "It identifies and mitigates usability risks via prototyping"
+      },
+      {
+        "id": "d",
+        "text": "It handles testing and deployment"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C is correct because the Second Quadrant of Barry Boehm's Spiral Model is dedicated specifically to 'Risk Analysis and Prototyping'. For interactive software, usability risks (unclear requirements, cognitive mismatch, navigation friction) are the most dangerous hazards, and rapid prototyping in this quadrant resolves them before expensive coding begins.\n\n**Why Other Options are Incorrect:** Option A (UI layout definition) occurs during design/development in Quadrant 3. Option B (finalizing architecture) is an architectural engineering task. Option D (testing and deployment) belongs to Quadrants 3 and 4.\n\n**Course Context:** The 4 Spiral Model quadrants are: 1. Determine Objectives, 2. Identify & Mitigate Risks (Prototyping), 3. Develop & Verify (Build), 4. Customer Evaluation & Plan next cycle."
+  },
+  {
+    "id": "w1_q4",
+    "assignmentWeek": 1,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "What does the term 'utility' refer to in the context of usability?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Speed of task completion"
+      },
+      {
+        "id": "b",
+        "text": "Visual appeal of the design"
+      },
+      {
+        "id": "c",
+        "text": "Functional support for user needs"
+      },
+      {
+        "id": "d",
+        "text": "Frequency of feature updates"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C is correct because 'Utility' in software engineering refers to whether the software provides the features, functionalities, and capabilities that users actually require to accomplish their tasks. Usability, by contrast, is whether users can execute those features easily and pleasantly.\n\n**Why Other Options are Incorrect:** Option A relates to efficiency (a usability metric). Option B relates to visual aesthetics. Option D relates to maintenance release cadence.\n\n**Course Context:** Utility + Usability = Usefulness. A system can have high usability (easy to click and navigate) but zero utility (does not do what the user needs)."
+  },
+  {
+    "id": "w1_q5",
+    "assignmentWeek": 1,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Which one of the following is NOT a computer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Desktop"
+      },
+      {
+        "id": "b",
+        "text": "Digital Pedometer"
+      },
+      {
+        "id": "c",
+        "text": "Smartphone"
+      },
+      {
+        "id": "d",
+        "text": "None of the above"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('None of the above') is correct because every single device listed (Desktop, Digital Pedometer, Smartphone) is indeed an interactive computer. All three contain processing units, memory, input sensors/buttons, and output displays to perform computational tasks.\n\n**Why Other Options are Incorrect:** Desktops, digital pedometers, and smartphones all qualify as computers under modern embedded and ubiquitous computing definitions.\n\n**Course Context:** Modern HCI encompasses embedded systems, wearables (pedometers), and mobile terminals, moving far beyond traditional desktop computing."
+  },
+  {
+    "id": "w1_q6",
+    "assignmentWeek": 1,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "Interactive software development is _______ in nature.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sporadic"
+      },
+      {
+        "id": "b",
+        "text": "iterative"
+      },
+      {
+        "id": "c",
+        "text": "variable"
+      },
+      {
+        "id": "d",
+        "text": "discrete"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Iterative') is correct because interactive software development requires continuous cycles of Design, Prototype, and Evaluate. Human cognitive needs and behavioral nuances cannot be completely predicted upfront; they emerge and get refined through iterative user exposure.\n\n**Why Other Options are Incorrect:** Sporadic implies random or disorganized efforts. Variable and discrete do not describe the cyclical feedback loops inherent to user-centered software engineering.\n\n**Course Context:** Iterative design is the cornerstone of User-Centered Design (UCD) as codified in ISO 9241-210."
+  },
+  {
+    "id": "w1_q7",
+    "assignmentWeek": 1,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Which of the following is NOT one of the five quality components of usability proposed by Jacob Nielsen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Learnability"
+      },
+      {
+        "id": "b",
+        "text": "Efficiency"
+      },
+      {
+        "id": "c",
+        "text": "Satisfaction"
+      },
+      {
+        "id": "d",
+        "text": "Memorization"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Memorization') is correct because it is NOT one of Nielsen's five quality components. Jakob Nielsen's five usability attributes are: Learnability, Efficiency, Memorability (the ease of re-establishing proficiency after a period of non-use), Errors, and Satisfaction.\n\n**Why Other Options are Incorrect:** Learnability (Option A), Efficiency (Option B), and Satisfaction (Option C) are official pillars of Nielsen's usability framework. 'Memorability' is the official term, not 'Memorization'.\n\n**Course Context:** Memorability measures how easily a casual or intermittent user can return to the design without having to learn everything from scratch."
+  },
+  {
+    "id": "w1_q8",
+    "assignmentWeek": 1,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "Which of the following is NOT a characteristic of the Waterfall model?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Feasibility study"
+      },
+      {
+        "id": "b",
+        "text": "Learnability study"
+      },
+      {
+        "id": "c",
+        "text": "System integration and testing"
+      },
+      {
+        "id": "d",
+        "text": "Maintenance"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Learnability study') is correct because classical Waterfall models do not include a 'learnability study' phase. The traditional linear phases of the Waterfall model are: Feasibility study, Requirements analysis and specification, Design, Coding and unit testing, Integration and system testing, and Maintenance.\n\n**Why Other Options are Incorrect:** Feasibility study (Option A), System integration and testing (Option C), and Maintenance (Option D) are standard textbook phases of the classic Waterfall lifecycle.\n\n**Course Context:** The Waterfall model's lack of explicit usability/learnability phases is the primary reason why User-Centered Design and Agile models superseded it for interactive systems."
+  },
+  {
+    "id": "w1_q9",
+    "assignmentWeek": 1,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "\u2018Identify objectives\u2019 and \u2018customer evaluation and planning\u2019 is in the ______ and ______ quadrant of the spiral model respectively.",
+    "options": [
+      {
+        "id": "a",
+        "text": "First, Fourth"
+      },
+      {
+        "id": "b",
+        "text": "Second, Third"
+      },
+      {
+        "id": "c",
+        "text": "Third, Fourth"
+      },
+      {
+        "id": "d",
+        "text": "Fourth, Second"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('First, Fourth') is correct because Quadrant 1 (top-left) of the Spiral Model is dedicated to 'Identify Objectives, alternatives, and constraints', while Quadrant 4 (bottom-left) is dedicated to 'Customer evaluation, review, and planning of the next phase'.\n\n**Why Other Options are Incorrect:** Quadrant 2 is Risk Analysis/Prototyping, and Quadrant 3 is Engineering/Coding/Testing.\n\n**Course Context:** Boehm's Spiral Model progresses clockwise through: Q1 (Objectives) -> Q2 (Risk/Prototyping) -> Q3 (Development) -> Q4 (Evaluation/Planning)."
+  },
+  {
+    "id": "w1_q10",
+    "assignmentWeek": 1,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "Which design approach focuses on what a programmer finds interesting to build?",
+    "options": [
+      {
+        "id": "a",
+        "text": "System-Centered Design"
+      },
+      {
+        "id": "b",
+        "text": "User-Centered Design"
+      },
+      {
+        "id": "c",
+        "text": "Utility-Based Design"
+      },
+      {
+        "id": "d",
+        "text": "Participatory Design"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('System-Centered Design') is correct because System-Centered Design focuses predominantly on system capabilities, hardware efficiency, or what developers find technically interesting or convenient to construct, rather than focusing on end-user psychology and needs.\n\n**Why Other Options are Incorrect:** User-Centered Design (Option B) prioritizes user goals and cognitive constraints. Participatory Design (Option D) actively involves end-users in the co-design process.\n\n**Course Context:** System-Centered Design historically caused severe usability catastrophes because users were expected to adapt unnaturally to internal machine architectures."
+  },
+  {
+    "id": "w2_q1",
+    "assignmentWeek": 2,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "Contextual inquiry is also known as ___________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Interview"
+      },
+      {
+        "id": "b",
+        "text": "Observation"
+      },
+      {
+        "id": "c",
+        "text": "Semi-structured interview"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Semi-structured interview') is correct because Contextual Inquiry is fundamentally a semi-structured interview method conducted in-situ (the user's actual workplace) combined with contextual observation, where the interviewer follows an open guide while probing deeper into observed user behaviors.\n\n**Why Other Options are Incorrect:** Pure interviews (Option A) lack real-time workplace context and demonstration. Pure passive observation (Option B) misses the user's verbal explanations of why actions are performed.\n\n**Course Context:** Introduced by Beyer and Holtzblatt, Contextual Inquiry follows the master-apprentice model to discover unarticulated user needs."
+  },
+  {
+    "id": "w2_q2",
+    "assignmentWeek": 2,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "In SRS, functions are not represented as",
+    "options": [
+      {
+        "id": "a",
+        "text": "Function name"
+      },
+      {
+        "id": "b",
+        "text": "Input"
+      },
+      {
+        "id": "c",
+        "text": "Output"
+      },
+      {
+        "id": "d",
+        "text": "Description"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Function name') is correct because in a formal Software Requirements Specification (SRS), a functional requirement is specified by its input, its expected output, and a detailed functional description of the transformation logic\u2014not simply by a code-level function name.\n\n**Why Other Options are Incorrect:** Input (Option B), Output (Option C), and Description (Option D) are the three mandatory structural components required to specify any functional requirement in an SRS.\n\n**Course Context:** An SRS focuses on 'WHAT' the system must accomplish from a behavioral standpoint, abstracting away programming identifiers."
+  },
+  {
+    "id": "w2_q3",
+    "assignmentWeek": 2,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "Contextual inquiry can be done in _______ and passive mode.",
+    "options": [
+      {
+        "id": "a",
+        "text": "active"
+      },
+      {
+        "id": "b",
+        "text": "semi-active"
+      },
+      {
+        "id": "c",
+        "text": "neutral"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('active') is correct because Contextual Inquiry can be conducted in Active mode (where the researcher interrupts the user to ask clarifying questions about observed actions) and Passive mode (where the researcher observes silently without interfering, discussing afterward).\n\n**Why Other Options are Incorrect:** 'Semi-active' and 'neutral' are informal terms not recognized in the formal Contextual Inquiry methodological taxonomy.\n\n**Course Context:** Active inquiry is ideal for deciphering tacit habits, while passive inquiry is essential when user interruption would break critical task timing or safety."
+  },
+  {
+    "id": "w2_q4",
+    "assignmentWeek": 2,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "There are _______ stages in contextual inquiry.",
+    "options": [
+      {
+        "id": "a",
+        "text": "two"
+      },
+      {
+        "id": "b",
+        "text": "five"
+      },
+      {
+        "id": "c",
+        "text": "six"
+      },
+      {
+        "id": "d",
+        "text": "eight"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('five') is correct because the Contextual Inquiry workflow comprises 5 distinct procedural stages: 1. Plan, 2. Initiate, 3. Execute (the session), 4. Reflect (immediate debrief), and 5. Wrap-up / Consolidate.\n\n**Why Other Options are Incorrect:** Options A, C, and D do not correspond to the five-stage contextual inquiry lifecycle taught in the course modules.\n\n**Course Context:** Following all five stages ensures methodological rigor from pre-interview scoping to final requirement consolidation."
+  },
+  {
+    "id": "w2_q5",
+    "assignmentWeek": 2,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Which stage in the Contextual Inquiry process involves arranging for recording observations and scripting the procedure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Plan Stage"
+      },
+      {
+        "id": "b",
+        "text": "Initiate Stage"
+      },
+      {
+        "id": "c",
+        "text": "Execute Stage"
+      },
+      {
+        "id": "d",
+        "text": "Reflect Stage"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Plan Stage') is correct because the Plan stage involves all preparatory logistical and methodological setup: selecting target user profiles, scripting observation protocols, acquiring recording tools/cameras, and securing permissions.\n\n**Why Other Options are Incorrect:** Initiate Stage (Option B) involves establishing rapport with the participant upon arrival. Execute Stage (Option C) is the actual workplace observation. Reflect Stage (Option D) is post-session analysis.\n\n**Course Context:** Proper planning prevents observation bias and ensures ethical consent before field visits begin."
+  },
+  {
+    "id": "w2_q6",
+    "assignmentWeek": 2,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "Affinity diagram method consists of _______ steps.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Three"
+      },
+      {
+        "id": "b",
+        "text": "Two"
+      },
+      {
+        "id": "c",
+        "text": "Six"
+      },
+      {
+        "id": "d",
+        "text": "Five"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Five') is correct because the Affinity Diagram (KJ method) consists of 5 sequential steps: 1. Generate observational notes on cards/sticky notes, 2. Display all notes randomly, 3. Cluster notes into related groups without speaking, 4. Create descriptive header labels for clusters, 5. Draw hierarchical relationships between super-groups.\n\n**Why Other Options are Incorrect:** Options A, B, and C represent incomplete subsets of the five-step affinity synthesis process.\n\n**Course Context:** Affinity diagramming is the standard qualitative synthesis technique used in HCI to convert messy qualitative field notes into structured user needs."
+  },
+  {
+    "id": "w2_q7",
+    "assignmentWeek": 2,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Usability requirements is one type of ______.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Functional Requirement"
+      },
+      {
+        "id": "b",
+        "text": "Non-functional requirement"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Non-functional requirement') is correct because Usability requirements (e.g. task completion time, allowable error rate, ease of learning, user satisfaction) specify quality attributes of the system, which are categorized as non-functional requirements in software engineering.\n\n**Why Other Options are Incorrect:** Functional requirements (Option A) describe specific services, calculations, or data transformations the system must execute.\n\n**Course Context:** While functional requirements specify WHAT a system does, non-functional requirements govern HOW WELL and how reliably it does it."
+  },
+  {
+    "id": "w2_q8",
+    "assignmentWeek": 2,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "What is the primary objective of Contextual Inquiry?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To watch and observe users perform tasks in their natural work setting"
+      },
+      {
+        "id": "b",
+        "text": "To conduct semi-structured interviews with users"
+      },
+      {
+        "id": "c",
+        "text": "To develop design recommendations"
+      },
+      {
+        "id": "d",
+        "text": "To study user behavior using physical note-taking"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A is correct because the core foundational principle of Contextual Inquiry is 'Context': observing real users performing their authentic day-to-day tasks in their natural physical work setting.\n\n**Why Other Options are Incorrect:** Option B (conducting interviews) is just a technique, not the primary objective. Option C and D describe later downstream artifacts or recording tools.\n\n**Course Context:** The 4 core principles of CI are: Context (go where the work is), Partnership (master-apprentice collaboration), Interpretation (assigning shared meaning), and Focus."
+  },
+  {
+    "id": "w2_q9",
+    "assignmentWeek": 2,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "What is the purpose of the \"Reflect\" stage in the Contextual Inquiry process?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To contact the authorities for permission"
+      },
+      {
+        "id": "b",
+        "text": "To analyze the data collected and identify design goals"
+      },
+      {
+        "id": "c",
+        "text": "To script the procedure and rehearse for observations"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B is correct because the 'Reflect' stage takes place immediately following the observation session to analyze collected data, review notes, cross-verify interpretations with the team, and identify preliminary design goals.\n\n**Why Other Options are Incorrect:** Contacting authorities (Option A) belongs to the Plan/Initiate stages. Scripting procedures (Option C) belongs strictly to the Plan stage.\n\n**Course Context:** Reflecting immediately after an interview capitalizes on short-term memory before tacit details fade."
+  },
+  {
+    "id": "w2_q10",
+    "assignmentWeek": 2,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "How long does the Contextual Inquiry process typically continue?",
+    "options": [
+      {
+        "id": "a",
+        "text": "One to two weeks"
+      },
+      {
+        "id": "b",
+        "text": "One to two hours"
+      },
+      {
+        "id": "c",
+        "text": "One to two months"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('One to two hours') is correct because an individual Contextual Inquiry session typically lasts between 1 to 2 hours. This provides sufficient depth to observe task workflows without causing excessive cognitive fatigue to the user or interfering with their business operations.\n\n**Why Other Options are Incorrect:** Options A and C (weeks or months) represent entire project timelines, not the duration of an individual contextual inquiry session.\n\n**Course Context:** A 1-2 hour focused observation strikes the perfect balance between depth of contextual immersion and participant comfort."
+  },
+  {
+    "id": "w3_q1",
+    "assignmentWeek": 3,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "In SRS document the functions should describe HOW to get the output from the given input.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('False') is correct because in an SRS document, functional requirements must describe WHAT output is produced from what input, NOT HOW the system internally computes it. Specifying 'HOW' is the job of detailed code design and algorithmic implementation, not the requirements phase.\n\n**Why Other Options are Incorrect:** Claiming that an SRS should describe 'HOW' violates the fundamental separation between Requirements (What) and Architecture/Implementation (How).\n\n**Course Context:** Conflating 'what' with 'how' prematurely restricts developer freedom and biases system design before all constraints are understood."
+  },
+  {
+    "id": "w3_q2",
+    "assignmentWeek": 3,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "We can also add new functional requirements based on the observations made in contextual inquiry.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because observing real users during contextual inquiry frequently reveals previously unstated workflows, workarounds, and tacit requirements that necessitate adding brand-new functional requirements to the system specification.\n\n**Why Other Options are Incorrect:** Option B is incorrect because requirements discovery is an iterative process; field research routinely uncovers missing functions.\n\n**Course Context:** Users frequently adapt to bad systems with personal workarounds (e.g. sticky notes, manual spreadsheets); noticing these highlights missing functional features."
+  },
+  {
+    "id": "w3_q3",
+    "assignmentWeek": 3,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "In user-centered design, we have two concerns: Interface design and",
+    "options": [
+      {
+        "id": "a",
+        "text": "Machine design"
+      },
+      {
+        "id": "b",
+        "text": "Hardware design"
+      },
+      {
+        "id": "c",
+        "text": "Code design"
+      },
+      {
+        "id": "d",
+        "text": "System design"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Code design') is correct because in User-Centered Design (UCD), developers balance two dual concerns: 'Interface Design' (the user-facing interaction, ergonomics, and presentation) and 'Code Design' (the underlying architecture, data structures, and computational algorithms).\n\n**Why Other Options are Incorrect:** Machine design (Option A) and hardware design (Option B) refer to mechanical/electronic engineering. System design (Option D) is an umbrella term encompassing both.\n\n**Course Context:** A brilliant interface cannot compensate for broken, buggy backend code; both must be engineered harmoniously."
+  },
+  {
+    "id": "w3_q4",
+    "assignmentWeek": 3,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "The design-prototype-evaluate cycle primarily caters to ________ design.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Interface"
+      },
+      {
+        "id": "b",
+        "text": "Code"
+      },
+      {
+        "id": "c",
+        "text": "System"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Interface') is correct because the rapid iterative cycle of 'Design-Prototype-Evaluate' is designed primarily for Interface Design. Prototyping allows teams to test layout, interaction flows, and cognitive friction with users before investing heavy resources in code implementation.\n\n**Why Other Options are Incorrect:** Code design (Option B) and System design (Option C) rely more on formal architectural modeling, refactoring, and automated testing rather than rapid user prototype evaluation.\n\n**Course Context:** Throwaway and paper prototypes are interface-specific tools that validate mental models before writing production code."
+  },
+  {
+    "id": "w3_q5",
+    "assignmentWeek": 3,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Code design can be expressed in natural languages, semi-formal languages and ____________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Informal languages"
+      },
+      {
+        "id": "b",
+        "text": "Formal languages"
+      },
+      {
+        "id": "c",
+        "text": "Context sensitive languages"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Formal languages') is correct because software engineering design languages span a spectrum from Natural languages (English), to Semi-formal languages (DFD, UML), to Formal languages (mathematically rigorous notations such as Z, VDM, or algebraic specifications).\n\n**Why Other Options are Incorrect:** Informal languages (Option A) is a synonym for natural language. Context-sensitive languages (Option C) is a Chomsky grammar classification, not a design notation category.\n\n**Course Context:** Formal specification languages use mathematical logic (set theory and predicate calculus) to prove system correctness without ambiguity."
+  },
+  {
+    "id": "w3_q6",
+    "assignmentWeek": 3,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "DFD is a ___________ code design language.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Natural"
+      },
+      {
+        "id": "b",
+        "text": "Semi-formal"
+      },
+      {
+        "id": "c",
+        "text": "Informal"
+      },
+      {
+        "id": "d",
+        "text": "Context sensitive"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Semi-formal') is correct because Data Flow Diagrams (DFDs) use standardized graphical shapes (processes, datastores, external entities, data flows) with defined syntax, but lack rigorous mathematical semantics, classifying them as semi-formal design notations.\n\n**Why Other Options are Incorrect:** Natural (Option A) uses spoken language. Formal languages rely on mathematical proofs. Context-sensitive (Option D) is a formal language theory class.\n\n**Course Context:** Most visual software modeling notations (DFD, ERD, UML) are semi-formal because they provide visual structure without mathematical execution proofs."
+  },
+  {
+    "id": "w3_q7",
+    "assignmentWeek": 3,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Shneiderman proposed __________ rules that covers broad aspects of interactive systems.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Five"
+      },
+      {
+        "id": "b",
+        "text": "Seven"
+      },
+      {
+        "id": "c",
+        "text": "Eight"
+      },
+      {
+        "id": "d",
+        "text": "Nine"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Eight') is correct because Ben Shneiderman formulated the seminal 'Eight Golden Rules of Interface Design' in 1986.\n\n**Why Other Options are Incorrect:** Five, Seven, and Nine are incorrect counts. Jakob Nielsen proposed 10 heuristics, while Shneiderman proposed 8 rules.\n\n**Course Context:** Shneiderman's 8 Golden Rules are: Consistency, Universal Usability, Informative Feedback, Dialog Closure, Error Prevention, Reversal of Actions (Undo), Locus of Control, and Reduced Memory Load."
+  },
+  {
+    "id": "w3_q8",
+    "assignmentWeek": 3,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "\u201cThe interface should not force users to remember too many things\u201d \u2013 this statement falls under \u201c____________\u201d, one of the golden rules proposed by Shneiderman.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strive for consistency"
+      },
+      {
+        "id": "b",
+        "text": "Permit easy reversal of actions"
+      },
+      {
+        "id": "c",
+        "text": "Reduce short-term memory load"
+      },
+      {
+        "id": "d",
+        "text": "Keep users in control"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Reduce short-term memory load') is correct because this directly reflects Shneiderman's 8th Golden Rule. Human working memory is limited to ~7 \u00b1 2 chunks, so interfaces should keep context visible, pre-fill known data, and avoid forcing users to memorize information across screens.\n\n**Why Other Options are Incorrect:** Strive for consistency (Option A) requires uniform terminology. Reversal of actions (Option B) is Undo/Redo. Keep users in control (Option D) relates to internal locus of control.\n\n**Course Context:** Minimizing memory load relies on 'recognition rather than recall'\u2014making items visible so users do not have to retrieve them from memory."
+  },
+  {
+    "id": "w3_q9",
+    "assignmentWeek": 3,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Human interface guidelines for the apple systems are the _________ design guidelines.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Generic"
+      },
+      {
+        "id": "b",
+        "text": "Specific"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Specific') is correct because Apple's Human Interface Guidelines (HIG) are platform-specific design guidelines tailored exclusively to Apple hardware (iOS, macOS, visionOS) and Apple design conventions, unlike generic guidelines (like Shneiderman's rules) which apply across all systems.\n\n**Why Other Options are Incorrect:** Generic guidelines (Option A) apply universally across any device or operating system.\n\n**Course Context:** Design guidelines exist at two levels: high-level generic principles (universal) and platform-specific guidelines (e.g. Apple HIG, Google Material Design)."
+  },
+  {
+    "id": "w3_q10",
+    "assignmentWeek": 3,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "Identification of data structures and algorithms for different modules is done on the ____________ phase of code design.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Preliminary (high-level design)"
+      },
+      {
+        "id": "b",
+        "text": "Detailed design"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Detailed design') is correct because selecting specific data structures (arrays, hash maps, trees) and exact algorithms (sorting, search, traversal logic) is performed during the Detailed Design phase. High-level design focuses on module partitioning and interfaces.\n\n**Why Other Options are Incorrect:** Preliminary / High-level design (Option A) defines the overall system architecture, subsystem decomposition, and module communication protocols without descending into algorithmic specifics.\n\n**Course Context:** High-level design creates the blueprint of modules; detailed design defines the internal algorithmic engine of each module."
+  },
+  {
+    "id": "w4_q1",
+    "assignmentWeek": 4,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "Norman\u2019s Model of Interaction represents behavior of a user of interactive systems in terms of a series of _________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "actions"
+      },
+      {
+        "id": "b",
+        "text": "selection"
+      },
+      {
+        "id": "c",
+        "text": "manipulation"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('actions') is correct because Donald Norman's 7 Stages of Action model conceptualizes human interaction with interactive devices as an alternating cycle of physical and cognitive actions (forming intentions, specifying actions, executing motor actions, and evaluating feedback).\n\n**Why Other Options are Incorrect:** Selection (Option B) and Manipulation (Option C) are specific sub-types of interaction, but Norman's overarching model is formulated around 'actions'.\n\n**Course Context:** Norman's 7 Stages: 1. Goal, 2. Intention, 3. Action Specification, 4. Execution, 5. Perception, 6. Interpretation, 7. Evaluation."
+  },
+  {
+    "id": "w4_q2",
+    "assignmentWeek": 4,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "There are broadly two stages of interaction execution stage and ________ stage.",
+    "options": [
+      {
+        "id": "a",
+        "text": "design"
+      },
+      {
+        "id": "b",
+        "text": "evaluation"
+      },
+      {
+        "id": "c",
+        "text": "interaction"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('evaluation') is correct because Norman divides interaction into two macro-stages: the 'Execution stage' (bridging the psychological goal to physical device action) and the 'Evaluation stage' (bridging the physical device state back to the psychological interpretation).\n\n**Why Other Options are Incorrect:** Design (Option A) is what creators do. Interaction (Option C) is the broad domain itself, not a sub-stage.\n\n**Course Context:** The two macro-stages give rise to the famous concepts: the Gulf of Execution and the Gulf of Evaluation."
+  },
+  {
+    "id": "w4_q3",
+    "assignmentWeek": 4,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "Perceive system state comes under the _______ stage of interaction.",
+    "options": [
+      {
+        "id": "a",
+        "text": "execution"
+      },
+      {
+        "id": "b",
+        "text": "design"
+      },
+      {
+        "id": "c",
+        "text": "evaluation"
+      },
+      {
+        "id": "d",
+        "text": "interaction"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('evaluation') is correct because 'Perceiving system state' is the first stage on the return cycle of the Evaluation phase (followed by Interpreting perception, and Evaluating outcome against the initial goal).\n\n**Why Other Options are Incorrect:** Execution (Option A) encompasses forming the intention, specifying actions, and physical motor execution.\n\n**Course Context:** Feedback (visual, auditory, tactile) is perceived by the human sensory system during this stage to bridge the Gulf of Evaluation."
+  },
+  {
+    "id": "w4_q4",
+    "assignmentWeek": 4,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "Actions we specify to translate intentions may not be supported by the interface leading to gap (gulf) between the first three and the last actions in the execution stage- It is called _______.",
+    "options": [
+      {
+        "id": "a",
+        "text": "The gulf of execution"
+      },
+      {
+        "id": "b",
+        "text": "The gulf of evaluation"
+      },
+      {
+        "id": "c",
+        "text": "The gulf of Interaction"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('The gulf of execution') is correct because the Gulf of Execution measures the psychological and physical gap between what the user intends to do and what allowable actions the interface actually provides.\n\n**Why Other Options are Incorrect:** The Gulf of Evaluation (Option B) is the difficulty of assessing the system's state and determining if the goal was achieved. 'Gulf of Interaction' (Option C) is a non-standard hybrid term.\n\n**Course Context:** Signifiers, natural mappings, and affordances help users bridge the Gulf of Execution."
+  },
+  {
+    "id": "w4_q5",
+    "assignmentWeek": 4,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Particularly in the context of errors during interaction is explained in terms of slips and ______.",
+    "options": [
+      {
+        "id": "a",
+        "text": "error"
+      },
+      {
+        "id": "b",
+        "text": "mistakes"
+      },
+      {
+        "id": "c",
+        "text": "human error"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('mistakes') is correct because in Norman's error classification, human errors during interaction are bifurcated into 'Slips' (execution errors where the goal is right but action execution fails) and 'Mistakes' (planning errors where the mental goal or plan itself is flawed).\n\n**Why Other Options are Incorrect:** 'Error' (Option A) and 'Human error' (Option C) are general umbrella categories, not the specific paired counterpart to slips.\n\n**Course Context:** Slips occur due to lack of attention or muscle fatigue (e.g. typos, clicking wrong icon); mistakes occur due to incomplete mental models."
+  },
+  {
+    "id": "w4_q6",
+    "assignmentWeek": 4,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "In a vertical prototype, the entire interface is depicted at the surface level without any functionality.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('False') is correct because depicting the entire interface at the surface level without underlying functionality is the definition of a Horizontal Prototype. A Vertical Prototype, by contrast, implements full, deep functionality for only a narrow slice of features.\n\n**Why Other Options are Incorrect:** The prompt incorrectly attributes the horizontal prototype definition to a vertical prototype.\n\n**Course Context:** Horizontal = broad breath, zero depth; Vertical = narrow breadth, deep functionality."
+  },
+  {
+    "id": "w4_q7",
+    "assignmentWeek": 4,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Paper mock-ups are the example of __________ prototype.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Low fidelity"
+      },
+      {
+        "id": "b",
+        "text": "High fidelity"
+      },
+      {
+        "id": "c",
+        "text": "Medium fidelity"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Low fidelity') is correct because paper mock-ups, sketches, and cardboard prototypes are classic examples of Low-Fidelity (Lo-Fi) prototypes. They are fast, cheap, and focus attention on information architecture rather than visual aesthetics.\n\n**Why Other Options are Incorrect:** High fidelity (Option B) prototypes look and behave like finished software (interactive code/clickable Figma). Medium fidelity (Option C) prototypes use digital wireframes without final styling.\n\n**Course Context:** Low-fidelity prototypes encourage candid user criticism because users do not assume the design is finished or fragile."
+  },
+  {
+    "id": "w4_q8",
+    "assignmentWeek": 4,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "There is a requirement of 3-5 member team for the cognitive walkthrough.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because standard Cognitive Walkthrough guidelines (Wharton et al., 1994) recommend a multidisciplinary team of 3 to 5 evaluators to optimize defect discovery and cognitive perspective without logistical gridlock.\n\n**Why Other Options are Incorrect:** Option B is incorrect because literature empirically demonstrates that 3-5 evaluators find the vast majority of learnability issues.\n\n**Course Context:** Evaluators role-play novice users stepping through tasks, evaluating action visibility, semantic matching, and feedback."
+  },
+  {
+    "id": "w4_q9",
+    "assignmentWeek": 4,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "In a cognitive walkthrough evaluation, evaluators re expected to answer the questions only in \u201cyes\u201d or \u201cno\u201d",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('False') is correct because in a Cognitive Walkthrough, evaluators must NOT simply answer 'yes' or 'no'. They must provide detailed, credible stories justifying why a user would or would not take the right action and record specific failure points.\n\n**Why Other Options are Incorrect:** A binary yes/no response fails to capture the underlying cognitive explanation needed by developers to redesign the interface.\n\n**Course Context:** Wharton's 4 walkthrough questions require qualitative justification: 1. Will the user try to achieve effect? 2. Notice control? 3. Associate with action? 4. Understand feedback?"
+  },
+  {
+    "id": "w4_q10",
+    "assignmentWeek": 4,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "In this technique, a human subject believes to interact with an autonomous computer. But, In reality, however, the computer is operated by an \u201cunseen\u201d human being. This technique is called________ approach.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Medium fidelity"
+      },
+      {
+        "id": "b",
+        "text": "Vertical"
+      },
+      {
+        "id": "c",
+        "text": "Wizard of Oz"
+      },
+      {
+        "id": "d",
+        "text": "Incremental"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Wizard of Oz') is correct because the Wizard of Oz technique simulates an intelligent or automated computing system by having a hidden human operator ('the Wizard') behind the scenes manually generating responses, unbeknownst to the test subject.\n\n**Why Other Options are Incorrect:** Vertical (Option B) is a functional prototype. Medium fidelity (Option A) and Incremental (Option D) describe prototype fidelity and process strategies.\n\n**Course Context:** Wizard of Oz is widely used to evaluate speech recognition, NLP, and AI assistants before investing in expensive machine learning algorithms."
+  },
+  {
+    "id": "w5_q1",
+    "assignmentWeek": 5,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "How do we evaluate an interface?",
+    "options": [
+      {
+        "id": "a",
+        "text": "by evaluating satisfaction"
+      },
+      {
+        "id": "b",
+        "text": "by evaluating memorability"
+      },
+      {
+        "id": "c",
+        "text": "by evaluating usability"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('by evaluating usability') is correct because the primary, comprehensive quality framework for evaluating interactive software interfaces is Usability (defined by ISO 9241-11 through effectiveness, efficiency, and satisfaction).\n\n**Why Other Options are Incorrect:** Evaluating satisfaction (Option A) and memorability (Option B) are individual sub-dimensions of usability, not the overarching evaluation method itself.\n\n**Course Context:** Usability evaluation encompasses both inspection methods (heuristic evaluation, walkthroughs) and empirical user testing."
+  },
+  {
+    "id": "w5_q2",
+    "assignmentWeek": 5,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "We need to frame a set of questions (usability issues) for the evaluators before performing a cognitive walkthrough",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because before conducting a Cognitive Walkthrough, the evaluation team must define the user persona, concrete task scenarios, the exact sequence of correct actions, and the four diagnostic usability questions for each step.\n\n**Why Other Options are Incorrect:** Without a pre-defined sequence of actions and structured questions, cognitive walkthroughs lose rigor and turn into unstructured critiques.\n\n**Course Context:** Structuring the walkthrough around explicit user tasks ensures evaluators stay focused on novice learnability."
+  },
+  {
+    "id": "w5_q3",
+    "assignmentWeek": 5,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "In a heuristic evaluation, the items in the checklist are called __________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "checkbox"
+      },
+      {
+        "id": "b",
+        "text": "heuristics"
+      },
+      {
+        "id": "c",
+        "text": "usability issues"
+      },
+      {
+        "id": "d",
+        "text": "problems"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('heuristics') is correct because in a Heuristic Evaluation, the guidelines or checklist items used by expert evaluators to inspect an interface are termed 'Heuristics' (rules of thumb, most famously Nielsen's 10 Heuristics).\n\n**Why Other Options are Incorrect:** Checkbox (Option A) is a UI widget. Usability issues (Option C) and problems (Option D) are the resulting discoveries, not the checklist guidelines themselves.\n\n**Course Context:** Heuristics act as cognitive lenses that help inspectors spot usability defects systematically."
+  },
+  {
+    "id": "w5_q4",
+    "assignmentWeek": 5,
+    "questionNumber": 4,
+    "type": "multiple",
+    "prompt": "There are many ways of collecting user feedback in evaluation with self report methods: ______________ , can ask them to choose from a list of system attributes ask direct and open-ended questions.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Utter the option"
+      },
+      {
+        "id": "b",
+        "text": "Rating on a scale"
+      }
+    ],
+    "correctAnswers": [
+      "b",
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Options B and A ('Rating on a scale' and 'Utter the option') are correct because self-report usability methods collect subjective user feedback by asking participants to rate items on structured Likert/semantic scales or to verbalize their choice/opinions directly.\n\n**Why Other Options are Incorrect:** Both rating scales (Likert) and open verbal choices are recognized self-report techniques in usability research.\n\n**Course Context:** Self-report metrics quantify subjective user satisfaction, complementing objective measures like task completion times."
+  },
+  {
+    "id": "w5_q5",
+    "assignmentWeek": 5,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "ASQ is a ___________________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Post-task questionnaire"
+      },
+      {
+        "id": "b",
+        "text": "Post-session questionnaire"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Post-task questionnaire') is correct because the ASQ (After-Scenario Questionnaire, developed by Lewis) is administered immediately following the completion of an individual task/scenario to capture immediate task difficulty.\n\n**Why Other Options are Incorrect:** Option B (Post-session) describes questionnaires like the SUS or CSUQ which are administered once at the very end of the entire usability testing session.\n\n**Course Context:** ASQ contains 3 items assessing ease of task completion, time required, and satisfaction with support information."
+  },
+  {
+    "id": "w5_q6",
+    "assignmentWeek": 5,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "It is generally assumed that an SUS score around _______ percent or higher is desirable",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "70"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('70') is correct because empirical research across thousands of usability surveys (Sauro & Lewis) establishes that a System Usability Scale (SUS) score around 68-70 is the average baseline (50th percentile / Grade C). A score >= 70 is considered acceptable/desirable.\n\n**Why Other Options are Incorrect:** Scores of 10, 20, or 50 represent severe usability failures (50 is in the bottom 15th percentile).\n\n**Course Context:** SUS scores above 80 indicate Grade A usability, while scores below 68 indicate below-average usability requiring remediation."
+  },
+  {
+    "id": "w5_q7",
+    "assignmentWeek": 5,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "In expert evaluation, the evaluation team should have at least _________ members.",
+    "options": [
+      {
+        "id": "a",
+        "text": "3-5"
+      },
+      {
+        "id": "b",
+        "text": "4-7"
+      },
+      {
+        "id": "c",
+        "text": "5-7"
+      },
+      {
+        "id": "d",
+        "text": "7-9"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('3-5') is correct because research by Jakob Nielsen demonstrated that 3 to 5 expert evaluators uncover roughly 75% to 80% of usability defects, providing the optimal cost-benefit balance in discount usability engineering.\n\n**Why Other Options are Incorrect:** Larger teams (4-7, 5-7, 7-9) incur diminishing returns: additional evaluators find fewer new problems while substantially increasing inspection costs.\n\n**Course Context:** A single evaluator finds only ~35% of problems, but pooling 3-5 independent evaluators covers the majority of severe issues."
+  },
+  {
+    "id": "w5_q8",
+    "assignmentWeek": 5,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "In heuristic evaluation, a system is evaluated with a checklist are called ____ .",
+    "options": [
+      {
+        "id": "a",
+        "text": "Heuristics"
+      },
+      {
+        "id": "b",
+        "text": "Actions"
+      },
+      {
+        "id": "c",
+        "text": "Statement"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Heuristics') is correct because the checklist items evaluated in a heuristic evaluation are called Heuristics (rules of thumb for good interface design).\n\n**Why Other Options are Incorrect:** Actions and statements are general linguistic terms, not the specific HCI inspection term.\n\n**Course Context:** Using established heuristics allows inspectors to benchmark designs against proven cognitive principles."
+  },
+  {
+    "id": "w5_q9",
+    "assignmentWeek": 5,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "What is the full form of SUS",
+    "options": [
+      {
+        "id": "a",
+        "text": "Software usability score"
+      },
+      {
+        "id": "b",
+        "text": "Software usability scale"
+      },
+      {
+        "id": "c",
+        "text": "System usability score"
+      },
+      {
+        "id": "d",
+        "text": "System usability scale"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('System usability scale') is correct because SUS stands for 'System Usability Scale', created by John Brooke at Digital Equipment Corporation in 1986.\n\n**Why Other Options are Incorrect:** Options A, B, and C use incorrect terms ('Software' instead of 'System', and 'Score' instead of 'Scale').\n\n**Course Context:** SUS is a 10-item Likert scale questionnaire that is technology-agnostic and widely cited as the industry benchmark for perceived usability."
+  },
+  {
+    "id": "w5_q10",
+    "assignmentWeek": 5,
+    "questionNumber": 10,
+    "type": "multiple",
+    "prompt": "Which are from the following are the valid prototype evaluation methods",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cognitive walkthrough"
+      },
+      {
+        "id": "b",
+        "text": "Affinity diagram"
+      },
+      {
+        "id": "c",
+        "text": "Heuristic evaluation"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Options A and C ('Cognitive walkthrough' and 'Heuristic evaluation') are correct because both are recognized expert usability inspection methods used to evaluate prototypes.\n\n**Why Other Options are Incorrect:** Affinity diagram (Option B) is a qualitative data synthesis and clustering method used during user research, not an interface prototype evaluation technique.\n\n**Course Context:** Heuristic evaluation and cognitive walkthroughs form the backbone of 'discount usability' inspection without requiring end-user testing."
+  },
+  {
+    "id": "w6_q1",
+    "assignmentWeek": 6,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "Which of the following is NOT a characteristic of Good design",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coverage"
+      },
+      {
+        "id": "b",
+        "text": "Correctness"
+      },
+      {
+        "id": "c",
+        "text": "Understandability"
+      },
+      {
+        "id": "d",
+        "text": "Colorful"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Colorful') is correct because being 'Colorful' is an aesthetic choice and NOT a fundamental engineering criterion of good software design. Good software design requires Coverage (addressing all requirements), Correctness (accurate execution), and Understandability (maintainable and clear architecture).\n\n**Why Other Options are Incorrect:** Coverage (Option A), Correctness (Option B), and Understandability (Option C) are essential quality criteria of software architecture.\n\n**Course Context:** Excessive color can increase visual cognitive load; aesthetic choices must support usability, not substitute for sound architecture."
+  },
+  {
+    "id": "w6_q2",
+    "assignmentWeek": 6,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "If all functions perform similar operations it falls under ________ cohesion.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Logical"
+      },
+      {
+        "id": "b",
+        "text": "Temporal"
+      },
+      {
+        "id": "c",
+        "text": "Procedural"
+      },
+      {
+        "id": "d",
+        "text": "Sequential"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Logical') is correct because Logical Cohesion occurs when elements in a module perform tasks that are logically similar or categorized together (e.g., a module that groups all input routines together or all mathematical transformations together).\n\n**Why Other Options are Incorrect:** Temporal cohesion (Option B) groups tasks executed at the same time (e.g. startup initialization). Procedural cohesion (Option C) groups tasks following a sequence of steps. Sequential cohesion (Option D) passes the output of one step as input to the next.\n\n**Course Context:** Cohesion levels (from weakest to strongest): Coincidental < Logical < Temporal < Procedural < Communicational < Sequential < Functional."
+  },
+  {
+    "id": "w6_q3",
+    "assignmentWeek": 6,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "If two modules share code, it falls under __________ coupling.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data"
+      },
+      {
+        "id": "b",
+        "text": "Control"
+      },
+      {
+        "id": "c",
+        "text": "Content"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Content') is correct because Content Coupling is the worst and tightest form of coupling, occurring when one module directly accesses, modifies, or shares the internal implementation code/data of another module.\n\n**Why Other Options are Incorrect:** Data coupling (Option A) is the best and cleanest form (modules pass only primitive data parameters). Control coupling (Option B) occurs when one module passes flags to control the execution logic of another.\n\n**Course Context:** High coupling makes software brittle; changes to one module unintentionally break dependent modules."
+  },
+  {
+    "id": "w6_q4",
+    "assignmentWeek": 6,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "There are two basic design approaches: function oriented and _______ oriented.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Logic"
+      },
+      {
+        "id": "b",
+        "text": "Folder"
+      },
+      {
+        "id": "c",
+        "text": "Object"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Object') is correct because the two fundamental architectural design approaches in software engineering are Function-Oriented Design (structured/procedural) and Object-Oriented Design (OOD).\n\n**Why Other Options are Incorrect:** Logic and folder are not software architectural design paradigms.\n\n**Course Context:** Function-oriented models view software as a hierarchy of functions processing data; object-oriented models view software as interacting autonomous objects encapsulating state and behavior."
+  },
+  {
+    "id": "w6_q5",
+    "assignmentWeek": 6,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Basic components of ER diagram are: Entity, _____ and Relationship",
+    "options": [
+      {
+        "id": "a",
+        "text": "Object"
+      },
+      {
+        "id": "b",
+        "text": "User"
+      },
+      {
+        "id": "c",
+        "text": "Attribute"
+      },
+      {
+        "id": "d",
+        "text": "Class"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Attribute') is correct because the three foundational building blocks of Entity-Relationship (ER) models are Entities (rectangles), Attributes (ovals), and Relationships (diamonds).\n\n**Why Other Options are Incorrect:** Object, User, and Class belong to object-oriented programming, not classical Chen ER modeling.\n\n**Course Context:** Peter Chen introduced ER modeling in 1976 to provide a unified conceptual model for database architectures."
+  },
+  {
+    "id": "w6_q6",
+    "assignmentWeek": 6,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "Null attributes are used when:",
+    "options": [
+      {
+        "id": "a",
+        "text": "An entity does not have a value for an attribute"
+      },
+      {
+        "id": "b",
+        "text": "A value needs to be derived from other attributes or entities"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A is correct because Null attributes in relational databases and ER models represent situations where an entity either does not have an applicable value for that attribute or the value is currently unknown/missing.\n\n**Why Other Options are Incorrect:** Option B describes Derived attributes (attributes whose values are computed from other stored attributes, represented by dashed ovals).\n\n**Course Context:** Handling null values properly is essential in database schema design to avoid semantic errors during queries."
+  },
+  {
+    "id": "w6_q7",
+    "assignmentWeek": 6,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "There are four types of relationships in ER diagram: one-to-one, one-to-many, many-to-one and _______.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Many-to-binary"
+      },
+      {
+        "id": "b",
+        "text": "Many-to-many"
+      },
+      {
+        "id": "c",
+        "text": "Binary-to-many"
+      },
+      {
+        "id": "d",
+        "text": "Binary-to-one"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Many-to-many') is correct because the four cardinality constraints in ER modeling are: One-to-One (1:1), One-to-Many (1:N), Many-to-One (N:1), and Many-to-Many (M:N).\n\n**Why Other Options are Incorrect:** 'Binary-to-many' and 'Many-to-binary' confuse degree (binary vs ternary) with cardinality ratios.\n\n**Course Context:** Many-to-many relationships require a junction/associative table when translated into physical relational database schemas."
+  },
+  {
+    "id": "w6_q8",
+    "assignmentWeek": 6,
+    "questionNumber": 8,
+    "type": "multiple",
+    "prompt": "Which of the following is/are the type of cohesion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Temporal"
+      },
+      {
+        "id": "b",
+        "text": "Functional"
+      },
+      {
+        "id": "c",
+        "text": "Content"
+      },
+      {
+        "id": "d",
+        "text": "All of the above"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Options A and B ('Temporal' and 'Functional') are correct because both are recognized types of module cohesion. Functional cohesion is the highest and most desirable form; Temporal cohesion groups routines executed in the same timeframe.\n\n**Why Other Options are Incorrect:** Content (Option C) is a type of module coupling, not cohesion. Option D ('All of the above') is wrong because Content is not cohesion.\n\n**Course Context:** Functional cohesion means every element in the module contributes to executing a single, well-defined mathematical or computational task."
+  },
+  {
+    "id": "w6_q9",
+    "assignmentWeek": 6,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Which one from the following are related with between modules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cohesion"
+      },
+      {
+        "id": "b",
+        "text": "Coupling"
+      },
+      {
+        "id": "c",
+        "text": "Both"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Coupling') is correct because Coupling specifically measures the degree of interdependence and interaction BETWEEN different software modules, whereas Cohesion measures how closely related the elements are WITHIN a single module.\n\n**Why Other Options are Incorrect:** Cohesion (Option A) measures internal intra-module strength. Option C is wrong because the two concepts operate at different structural levels.\n\n**Course Context:** The golden rule of software engineering architecture is: 'Aim for High Cohesion and Low Coupling'."
+  },
+  {
+    "id": "w6_q10",
+    "assignmentWeek": 6,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "What is the full form of the DFD",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data flow design"
+      },
+      {
+        "id": "b",
+        "text": "Data flow decision"
+      },
+      {
+        "id": "c",
+        "text": "Data flow development"
+      },
+      {
+        "id": "d",
+        "text": "Data flow diagram"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Data flow diagram') is correct because DFD stands for Data Flow Diagram, a graphical modeling tool for function-oriented software analysis and design.\n\n**Why Other Options are Incorrect:** Options A, B, and C use incorrect expansions ('design', 'decision', 'development').\n\n**Course Context:** DFDs model how data enters a system, transforms across functional processes, and gets stored in datastores."
+  },
+  {
+    "id": "w7_q1",
+    "assignmentWeek": 7,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "In functional design approach we think of the system as provider of a set of \u201cservices\u201d represented as ________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data"
+      },
+      {
+        "id": "b",
+        "text": "Functions"
+      },
+      {
+        "id": "c",
+        "text": "Objects"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Functions') is correct because Function-Oriented Design conceptualizes the system as a collection of services or processing steps represented as Functions/procedures that manipulate passive data.\n\n**Why Other Options are Incorrect:** Objects (Option C) are the core abstraction of Object-Oriented design. Data (Option A) represents the input/output passed between functions.\n\n**Course Context:** Function-oriented design breaks high-level functions into smaller sub-functions using top-down stepwise refinement."
+  },
+  {
+    "id": "w7_q2",
+    "assignmentWeek": 7,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "In \u201cObject Oriented Design approach\u201d, we do not consider \u201cservices\u201d offered by system.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because Object-Oriented Design (OOD) rejects viewing a system as a centralized collection of procedural 'services'; instead, it models the world as autonomous, self-contained objects that collaborate via message passing.\n\n**Why Other Options are Incorrect:** Option B is incorrect because in pure OOD, capabilities are encapsulated as member operations belonging to individual objects rather than monolithic system-wide services.\n\n**Course Context:** This fundamental paradigm shift improves modularity, maintainability, and code reuse through encapsulation and polymorphism."
+  },
+  {
+    "id": "w7_q3",
+    "assignmentWeek": 7,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "A class contains attributes and ___________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data"
+      },
+      {
+        "id": "b",
+        "text": "Operations"
+      },
+      {
+        "id": "c",
+        "text": "Objects"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Operations') is correct because in object-oriented modeling, a class encapsulates two essential components: Attributes (data/state variables) and Operations (methods/behavioral functions).\n\n**Why Other Options are Incorrect:** Objects (Option C) are runtime instances of classes. Data (Option A) is represented by attributes.\n\n**Course Context:** A UML class diagram box displays three compartments: Class Name, Attributes, and Operations."
+  },
+  {
+    "id": "w7_q4",
+    "assignmentWeek": 7,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "Attribute indicates nature of data that an object can contain.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because Attributes define the state, fields, or properties that instances (objects) of that class can hold at runtime.\n\n**Why Other Options are Incorrect:** Option B is incorrect because attributes are the formal mechanism for declaring data types and variables encapsulated in an object.\n\n**Course Context:** Encapsulation restricts direct external access to attributes, forcing interactions through class operations/methods."
+  },
+  {
+    "id": "w7_q5",
+    "assignmentWeek": 7,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Full form of OOA is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "object oriented assignment"
+      },
+      {
+        "id": "b",
+        "text": "object oriented assistance"
+      },
+      {
+        "id": "c",
+        "text": "object oriented analysis"
+      },
+      {
+        "id": "d",
+        "text": "object oriented attributes"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('object oriented analysis') is correct because OOA stands for Object-Oriented Analysis, the phase focused on modeling the problem domain and identifying objects, classes, and requirements.\n\n**Why Other Options are Incorrect:** Options A, B, and D use incorrect expansions ('assignment', 'assistance', 'attributes').\n\n**Course Context:** OOA models WHAT the real-world domain consists of; OOD designs HOW software objects will implement the solution."
+  },
+  {
+    "id": "w7_q6",
+    "assignmentWeek": 7,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "________ effectively denotes the behavior of class.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data"
+      },
+      {
+        "id": "b",
+        "text": "Operations"
+      },
+      {
+        "id": "c",
+        "text": "Objects"
+      },
+      {
+        "id": "d",
+        "text": "Attributes"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Operations') is correct because Operations (methods) define the dynamic behavior, message handling, and state transformations that a class can perform.\n\n**Why Other Options are Incorrect:** Attributes (Option D) and Data (Option A) define static state. Objects (Option C) are instances.\n\n**Course Context:** State + Behavior = Object. Attributes represent state; operations represent behavior."
+  },
+  {
+    "id": "w7_q7",
+    "assignmentWeek": 7,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "UML is a language to represent",
+    "options": [
+      {
+        "id": "a",
+        "text": "OOP"
+      },
+      {
+        "id": "b",
+        "text": "OOA"
+      },
+      {
+        "id": "c",
+        "text": "OOD"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('OOD') is correct because the Unified Modeling Language (UML) is a standardized visual modeling language used primarily to represent Object-Oriented Design (and Analysis).\n\n**Why Other Options are Incorrect:** OOP (Option A) refers to actual programming languages (Java, C++). OOA (Option B) is only the analysis subset.\n\n**Course Context:** UML was created by Grady Booch, Ivar Jacobson, and James Rumbaugh (the 'Three Amigos') in the mid-1990s."
+  },
+  {
+    "id": "w7_q8",
+    "assignmentWeek": 7,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "UML is a design methodology",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('False') is correct because UML is a graphical modeling language/notation, NOT a design methodology. A methodology prescribes a process, schedule, and team roles (e.g. Scrum, XP, Waterfall); UML simply provides the visual vocabulary to draw diagrams.\n\n**Why Other Options are Incorrect:** Confusing a modeling language with a software development process is a common beginner misconception.\n\n**Course Context:** You can use UML with any methodology: Waterfall, Agile, Spiral, or the Rational Unified Process (RUP)."
+  },
+  {
+    "id": "w7_q9",
+    "assignmentWeek": 7,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Implementation view can be captured using ________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Deployment diagram"
+      },
+      {
+        "id": "b",
+        "text": "Component diagram"
+      },
+      {
+        "id": "c",
+        "text": "Class diagram"
+      },
+      {
+        "id": "d",
+        "text": "Use case diagram"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Component diagram') is correct because the Implementation View of a system depicts software modules, source code files, libraries, and executables, which is modeled using UML Component diagrams.\n\n**Why Other Options are Incorrect:** Deployment diagrams (Option A) capture the physical hardware environment. Class diagrams (Option C) capture logical static structure. Use case diagrams (Option D) capture user behavioral requirements.\n\n**Course Context:** In Kruchten's 4+1 View Model, the Implementation (Development) View manages software asset organization."
+  },
+  {
+    "id": "w7_q10",
+    "assignmentWeek": 7,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "________ objects normally hold information (e.g. book, book registers etc).",
+    "options": [
+      {
+        "id": "a",
+        "text": "Boundary"
+      },
+      {
+        "id": "b",
+        "text": "Controller"
+      },
+      {
+        "id": "c",
+        "text": "Entity"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Entity') is correct because Entity objects (in the BCE - Boundary, Controller, Entity pattern) represent persistent data and domain information (e.g. books, accounts, customer records).\n\n**Why Other Options are Incorrect:** Boundary objects (Option A) handle interactions with external actors (UI forms, API endpoints). Controller objects (Option B) orchestrate workflow logic.\n\n**Course Context:** The BCE pattern separates presentation (Boundary), business logic (Controller), and state storage (Entity)."
+  },
+  {
+    "id": "w8_q1",
+    "assignmentWeek": 8,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "Following standard coding guidelines helps to improve ______.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Readability only"
+      },
+      {
+        "id": "b",
+        "text": "Understandability only"
+      },
+      {
+        "id": "c",
+        "text": "Teamwork only"
+      },
+      {
+        "id": "d",
+        "text": "Readability, understandability, and teamwork"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Readability, understandability, and teamwork') is correct because adhering to standard coding conventions (naming, formatting, indentation) ensures that code is easy to read, simple to understand during debugging, and seamlessly maintainable across collaborative engineering teams.\n\n**Why Other Options are Incorrect:** Options A, B, and C are only partial benefits; coding standards impact all three dimensions simultaneously.\n\n**Course Context:** Software is read far more often than it is written; standard coding guidelines drastically reduce cognitive friction during code reviews."
+  },
+  {
+    "id": "w8_q2",
+    "assignmentWeek": 8,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "A function should have no longer than _____ lines of code.",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('10') is correct because textbook coding guidelines and course lectures recommend keeping individual functions concise\u2014ideally around 10 lines of code\u2014to uphold the Single Responsibility Principle and maintain high readability.\n\n**Why Other Options are Incorrect:** Functions with 50+ or 100+ lines become difficult to comprehend, verify, and unit-test without defects.\n\n**Course Context:** Small functions are easier to test, reason about, and reuse without side effects."
+  },
+  {
+    "id": "w8_q3",
+    "assignmentWeek": 8,
+    "questionNumber": 3,
+    "type": "multiple",
+    "prompt": "What are some things to avoid when writing code? (Choose all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Using lengthy functions"
+      },
+      {
+        "id": "b",
+        "text": "Using the same identifier for multiple purposes"
+      },
+      {
+        "id": "c",
+        "text": "Using \u2018goto\u2019 (branching) statements indiscriminately"
+      },
+      {
+        "id": "d",
+        "text": "Using proper indentation"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Options A, B, and C ('Using lengthy functions', 'Using the same identifier for multiple purposes', 'Using goto indiscriminately') are correct because all three are notorious code smells and anti-patterns that create spaghetti code and introduce bugs.\n\n**Why Other Options are Incorrect:** Using proper indentation (Option D) is a mandatory best practice, not something to avoid.\n\n**Course Context:** Reusing variable names for unrelated purposes breaks referential transparency and confuses static analysis tools."
+  },
+  {
+    "id": "w8_q4",
+    "assignmentWeek": 8,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "Two broad categories of code testing methods are review-based method and __________ method.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Manual testing"
+      },
+      {
+        "id": "b",
+        "text": "Execution-based"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Execution-based') is correct because software testing methods are broadly partitioned into Review-Based methods (static testing without running code: inspections, walkthroughs) and Execution-Based methods (dynamic testing by running code with test inputs).\n\n**Why Other Options are Incorrect:** Manual testing (Option A) can be both execution-based or review-based. Option D ('1 Point') is a stray OCR label.\n\n**Course Context:** Review-based testing catches 50-70% of logical bugs before code ever compiles, saving substantial debugging time."
+  },
+  {
+    "id": "w8_q5",
+    "assignmentWeek": 8,
+    "questionNumber": 5,
+    "type": "multiple",
+    "prompt": "What are the two common methods for review-based testing? (Choose all that apply)",
+    "options": [
+      {
+        "id": "a",
+        "text": "Code inspection"
+      },
+      {
+        "id": "b",
+        "text": "Code walkthrough"
+      },
+      {
+        "id": "c",
+        "text": "Unit testing"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Options A and B ('Code inspection' and 'Code walkthrough') are correct because both are the classic review-based (static) software quality assurance methods.\n\n**Why Other Options are Incorrect:** Unit testing (Option C) is dynamic execution-based testing requiring the code to execute with test cases.\n\n**Course Context:** Code inspection is formal and checklist-driven (Fagan inspection); code walkthrough is informal and led by the code author."
+  },
+  {
+    "id": "w8_q6",
+    "assignmentWeek": 8,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "6. White-box testing refers to designing test cases using knowledge of internal structure of the software.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "false"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because White-Box (structural/glass-box) testing explicitly uses knowledge of internal program source code, control flow paths, and branch conditions to design test cases.\n\n**Why Other Options are Incorrect:** Option B is incorrect because black-box testing ignores internal code structure, while white-box testing requires it.\n\n**Course Context:** White-box testing evaluates statement coverage, branch coverage, condition coverage, and path coverage."
+  },
+  {
+    "id": "w8_q7",
+    "assignmentWeek": 8,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "How many members should be present in a code walkthrough team?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2\u20133 members"
+      },
+      {
+        "id": "b",
+        "text": "3-5 members"
+      },
+      {
+        "id": "c",
+        "text": "5\u20137 members"
+      },
+      {
+        "id": "d",
+        "text": "7\u201310 members"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('3-5 members') is correct because standard software engineering guidelines recommend a team size of 3 to 5 members for code walkthroughs to facilitate thorough scrutiny without organizational chaos.\n\n**Why Other Options are Incorrect:** Teams with fewer than 3 lack diverse perspective; teams larger than 5 suffer coordination overhead and slower reviews.\n\n**Course Context:** A typical walkthrough team includes: the author, a moderator, a scribe, and one or two peer inspectors."
+  },
+  {
+    "id": "w8_q8",
+    "assignmentWeek": 8,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "Which of the following code testing method requires simulation of code execution by hand?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Code walkthrough"
+      },
+      {
+        "id": "b",
+        "text": "Code inspection"
+      },
+      {
+        "id": "c",
+        "text": "Black box testing"
+      },
+      {
+        "id": "d",
+        "text": "White box testing"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Code walkthrough') is correct because in a code walkthrough, the author guides the review team through the source code, manually stepping through sample test data by hand on a whiteboard to simulate runtime execution.\n\n**Why Other Options are Incorrect:** Code inspection (Option B) is a static checklist audit looking for standard defects (syntax, uninitialized variables) rather than hand simulation. Black/White box testing executes on a computer.\n\n**Course Context:** Manual simulation in walkthroughs uncovers algorithmic boundary flaws and off-by-one errors early."
+  },
+  {
+    "id": "w8_q9",
+    "assignmentWeek": 8,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Uninitialized variable is one of the common errors in programming that can be identified through code inspection.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because uninitialized variables are static defects that do not require program execution to find; they are easily caught during static code inspection using standard inspection checklists or compiler linting.\n\n**Why Other Options are Incorrect:** Option B is incorrect because static analysis and code inspection checklists explicitly include checks for variable initialization before use.\n\n**Course Context:** Uninitialized variables cause unpredictable memory garbage and undefined runtime crashes in languages like C/C++."
+  },
+  {
+    "id": "w8_q10",
+    "assignmentWeek": 8,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "Which of the following is not required to perform black box testing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Equivalence class partitioning"
+      },
+      {
+        "id": "b",
+        "text": "Boundary value analysis"
+      },
+      {
+        "id": "c",
+        "text": "Test suite creation"
+      },
+      {
+        "id": "d",
+        "text": "Knowledge of the internal structure of the code"
+      }
+    ],
+    "correctAnswers": [
+      "d"
+    ],
+    "explanation": "**Why it's Correct:** Option D ('Knowledge of the internal structure of the code') is correct because Black-Box testing intentionally treats the software as an opaque black box, relying strictly on requirements specifications without any knowledge of internal code or data structures.\n\n**Why Other Options are Incorrect:** Equivalence class partitioning (Option A), Boundary value analysis (Option B), and Test suite creation (Option C) are core techniques of black-box testing.\n\n**Course Context:** Black-box testing verifies that the software delivers the expected outputs for given inputs from the user's perspective."
+  },
+  {
+    "id": "w9_q1",
+    "assignmentWeek": 9,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "Set of all test cases with which a given software is to be tested is known as ________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Testcase"
+      },
+      {
+        "id": "b",
+        "text": "Test suite"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Test suite') is correct because a collection or set of all test cases intended to test a specific software application or component is formally known as a Test Suite.\n\n**Why Other Options are Incorrect:** A Testcase (Option A) refers to a single individual test input, execution condition, and expected outcome.\n\n**Course Context:** Test suites are automated within continuous integration (CI) pipelines to prevent regression bugs."
+  },
+  {
+    "id": "w9_q2",
+    "assignmentWeek": 9,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "Randomly selected test cases do not necessarily contribute to significance of test suite.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because selecting test inputs completely at random often clusters values in the center of equivalence partitions where bugs rarely hide, offering low defect discovery significance compared to systematic testing.\n\n**Why Other Options are Incorrect:** Option B is incorrect because random testing fails to target boundary values where over 80% of software defects actually reside.\n\n**Course Context:** Systematic techniques (BVA, Equivalence Partitioning) guarantee high test significance with minimal test cases."
+  },
+  {
+    "id": "w9_q3",
+    "assignmentWeek": 9,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "In black box testing the two main approaches to design test vases are: Equivalence class partitioning and _______________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Structural analysis"
+      },
+      {
+        "id": "b",
+        "text": "Boundary value analysis"
+      },
+      {
+        "id": "c",
+        "text": "Equivalence class analysis"
+      },
+      {
+        "id": "d",
+        "text": "System analysis"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Boundary value analysis') is correct because the two primary foundational techniques for designing black-box test cases are Equivalence Class Partitioning (ECP) and Boundary Value Analysis (BVA).\n\n**Why Other Options are Incorrect:** Structural analysis (Option A) belongs to white-box testing. Equivalence class analysis and system analysis are informal terms.\n\n**Course Context:** BVA tests values right at the borders of equivalence classes (e.g. min-1, min, min+1, max-1, max, max+1)."
+  },
+  {
+    "id": "w9_q4",
+    "assignmentWeek": 9,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "Testing code with any _____ value(s) of an equivalence class is as good as testing with ALL input values belonging to that class.",
+    "options": [
+      {
+        "id": "a",
+        "text": "One"
+      },
+      {
+        "id": "b",
+        "text": "Two"
+      },
+      {
+        "id": "c",
+        "text": "Five"
+      },
+      {
+        "id": "d",
+        "text": "Four"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('One') is correct because the mathematical premise of an equivalence partition is that all input values within that partition are treated identically by the program logic. Therefore, testing any ONE arbitrary representative value from the class is assumed to be as effective as testing all of them.\n\n**Why Other Options are Incorrect:** Testing two, four, or five values from the same equivalence class is redundant and inflates test suite execution time without increasing defect detection.\n\n**Course Context:** Equivalence partitioning reduces an infinite set of potential inputs into a small, manageable number of test cases."
+  },
+  {
+    "id": "w9_q5",
+    "assignmentWeek": 9,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "In black box testing, domain of input values partitioned into sets, each sets are called _________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Partition class"
+      },
+      {
+        "id": "b",
+        "text": "Equivalence class"
+      },
+      {
+        "id": "c",
+        "text": "Program class"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Equivalence class') is correct because in black-box testing, the input domain is partitioned into contiguous subsets called Equivalence Classes, where every value in the subset is assumed to produce the same processing outcome.\n\n**Why Other Options are Incorrect:** Partition class and program class are non-standard terminology.\n\n**Course Context:** Equivalence classes are divided into Valid Equivalence Classes (normal inputs) and Invalid Equivalence Classes (error-handling inputs)."
+  },
+  {
+    "id": "w9_q6",
+    "assignmentWeek": 9,
+    "questionNumber": 6,
+    "type": "multiple",
+    "prompt": "Which is/are from the following are valid review based testing",
+    "options": [
+      {
+        "id": "a",
+        "text": "Code walkthrough"
+      },
+      {
+        "id": "b",
+        "text": "Code inspection"
+      },
+      {
+        "id": "c",
+        "text": "Code analysis"
+      },
+      {
+        "id": "d",
+        "text": "Code assessment"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Options A and B ('Code walkthrough' and 'Code inspection') are correct because both are the formal review-based testing methodologies in software quality engineering.\n\n**Why Other Options are Incorrect:** Code analysis (Option C) and Code assessment (Option D) are generic descriptive phrases, not formal review inspection techniques.\n\n**Course Context:** Code walkthroughs and inspections verify compliance with coding standards, error handling, and algorithmic correctness."
+  },
+  {
+    "id": "w9_q7",
+    "assignmentWeek": 9,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Set of all test cases with which a given software is to be tested is called test _____",
+    "options": [
+      {
+        "id": "a",
+        "text": "Question"
+      },
+      {
+        "id": "b",
+        "text": "Questionnaire"
+      },
+      {
+        "id": "c",
+        "text": "Suite"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Suite') is correct because a set of test cases assembled to test software is termed a Test Suite.\n\n**Why Other Options are Incorrect:** Question and Questionnaire are survey tools, not software engineering test terminology.\n\n**Course Context:** A test suite organizes test cases logically by module, feature, or testing level (unit, integration, regression)."
+  },
+  {
+    "id": "w9_q8",
+    "assignmentWeek": 9,
+    "questionNumber": 8,
+    "type": "multiple",
+    "prompt": "In Black-box testing, the test cases are based on",
+    "options": [
+      {
+        "id": "a",
+        "text": "input"
+      },
+      {
+        "id": "b",
+        "text": "knowledge of design"
+      },
+      {
+        "id": "c",
+        "text": "output"
+      },
+      {
+        "id": "d",
+        "text": "knowledge of code"
+      }
+    ],
+    "correctAnswers": [
+      "a",
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Options A and C ('input' and 'output') are correct because Black-Box test cases are derived strictly from the specification of valid/invalid inputs and their corresponding expected outputs.\n\n**Why Other Options are Incorrect:** Knowledge of design (Option B) and Knowledge of code (Option D) are the domain of white-box and gray-box testing, not black-box testing.\n\n**Course Context:** Black-box testing ensures that software satisfies customer requirements without being biased by implementation quirks."
+  },
+  {
+    "id": "w9_q9",
+    "assignmentWeek": 9,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Domain of input values partitioned into set is called equivalence class",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because an equivalence class is formally defined as a subset of the input domain where the software's behavior is equivalent for any value chosen from that subset.\n\n**Why Other Options are Incorrect:** Option B is incorrect because this is the fundamental definition of equivalence partitioning in software testing.\n\n**Course Context:** If a test fails for one member of an equivalence class, it is assumed to fail for all members of that class."
+  },
+  {
+    "id": "w9_q10",
+    "assignmentWeek": 9,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "Functional testing is related to",
+    "options": [
+      {
+        "id": "a",
+        "text": "Black-box testing"
+      },
+      {
+        "id": "b",
+        "text": "White-box testing"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Black-box testing') is correct because Functional Testing validates system operations against user requirements and functional specifications, making it fundamentally a black-box testing paradigm.\n\n**Why Other Options are Incorrect:** White-box testing (Option B) evaluates structural code execution (branches, paths, conditions), which is structural testing, not functional testing.\n\n**Course Context:** Functional testing answers: 'Does the software perform the specific business functions required by the user?'"
+  },
+  {
+    "id": "w10_q1",
+    "assignmentWeek": 10,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "To do a white-box testing, knowledge of internal structure is required.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because White-Box (glass-box/structural) testing inherently requires access to and knowledge of internal source code, control logic, and variable states to create test cases.\n\n**Why Other Options are Incorrect:** Option B is incorrect because testing without internal knowledge is black-box testing.\n\n**Course Context:** White-box testing allows developers to inspect untested conditional branches and exception blocks."
+  },
+  {
+    "id": "w10_q2",
+    "assignmentWeek": 10,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "To understand white-box testing strategies, program (flow) visualization helps. To visualize the program we can take help of ________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "CFG"
+      },
+      {
+        "id": "b",
+        "text": "DFD"
+      },
+      {
+        "id": "c",
+        "text": "ERD"
+      },
+      {
+        "id": "d",
+        "text": "Class diagram"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('CFG') is correct because a Control Flow Graph (CFG) is the standard visual graph representation of program control flow, where nodes represent statements and directed edges represent control jumps.\n\n**Why Other Options are Incorrect:** DFD (Option B) models data movement. ERD (Option C) models database relationships. Class diagrams (Option D) model object-oriented static class hierarchies.\n\n**Course Context:** CFGs are the mathematical foundation for calculating cyclomatic complexity and designing path coverage test suites."
+  },
+  {
+    "id": "w10_q3",
+    "assignmentWeek": 10,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "To construct a CFG we assign numbers to all statements of the program, create a node in the CFG for each numbered statement and_____________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Complement the CFG"
+      },
+      {
+        "id": "b",
+        "text": "Add edges"
+      },
+      {
+        "id": "c",
+        "text": "Sort the nodes"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Add edges') is correct because constructing a CFG requires: 1. Numbering all basic statements, 2. Creating a node for each statement, and 3. Adding directed edges between nodes that represent possible transfers of control.\n\n**Why Other Options are Incorrect:** Complementing (Option A) and sorting (Option C) are not steps in standard CFG construction.\n\n**Course Context:** Branches (e.g. if-else, while loops) generate multiple outgoing edges from decision nodes."
+  },
+  {
+    "id": "w10_q4",
+    "assignmentWeek": 10,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "Branch coverage guarantees statement coverage.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because Branch Coverage requires that every decision branch (both TRUE and FALSE outcomes of every conditional statement) is executed at least once. Satisfying branch coverage guarantees that every statement lying along those branches is also executed, thereby guaranteeing Statement Coverage.\n\n**Why Other Options are Incorrect:** Option B is incorrect because Statement coverage does NOT guarantee branch coverage (e.g. an unstated 'else' branch can be missed), but branch coverage ALWAYS guarantees statement coverage.\n\n**Course Context:** Branch coverage is strictly stronger than statement coverage in the subsumption hierarchy of structural testing."
+  },
+  {
+    "id": "w10_q5",
+    "assignmentWeek": 10,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "In path coverage, test cases should ensure all __________ in the code executed at least once.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Linearly independent paths"
+      },
+      {
+        "id": "b",
+        "text": "Linearly dependent paths"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Linearly independent paths') is correct because Path Coverage aims to execute all linearly independent paths (basis paths) through the program's control flow graph.\n\n**Why Other Options are Incorrect:** Linearly dependent paths (Option B) are redundant linear combinations of basis paths and do not add test coverage.\n\n**Course Context:** The number of linearly independent paths in a program is mathematically equal to McCabe's Cyclomatic Complexity."
+  },
+  {
+    "id": "w10_q6",
+    "assignmentWeek": 10,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "To compute cyclomatic complexity, we can use ___________, where E=number of edges, N=number of nodes.",
+    "options": [
+      {
+        "id": "a",
+        "text": "E-N+2"
+      },
+      {
+        "id": "b",
+        "text": "E-N+1"
+      },
+      {
+        "id": "c",
+        "text": "E+N-2"
+      },
+      {
+        "id": "d",
+        "text": "E+N-1"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('E-N+2') is correct because McCabe's formula for Cyclomatic Complexity of a connected control flow graph is V(G) = E - N + 2P, where E is the number of edges, N is the number of nodes, and P is connected components (P = 1 for a single procedure, giving E - N + 2).\n\n**Why Other Options are Incorrect:** Options B, C, and D are algebraic variants with incorrect signs or constants.\n\n**Course Context:** Cyclomatic complexity can also be calculated as: Number of Closed Predicate Nodes + 1, or the total number of bounded regions + 1."
+  },
+  {
+    "id": "w10_q7",
+    "assignmentWeek": 10,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "Three main stages of system testing is alpha testing, beta testing and _________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gama testing"
+      },
+      {
+        "id": "b",
+        "text": "Sigma testing"
+      },
+      {
+        "id": "c",
+        "text": "Acceptance testing"
+      },
+      {
+        "id": "d",
+        "text": "Omega testing"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Acceptance testing') is correct because the three standard sequential phases of system validation and deployment testing are: Alpha testing (in-house with simulated users), Beta testing (field testing with actual end-users in real environments), and Final Acceptance testing (sign-off against contractual requirements).\n\n**Why Other Options are Incorrect:** Gama, Sigma, and Omega testing are fictitious or non-standard testing names.\n\n**Course Context:** Acceptance testing determines whether the customer formally accepts delivery and authorizes payment."
+  },
+  {
+    "id": "w10_q8",
+    "assignmentWeek": 10,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "Volume testing tests system performance for ______ input.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Small"
+      },
+      {
+        "id": "b",
+        "text": "Large"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Large') is correct because Volume Testing tests the system's performance, stability, and memory degradation when subjected to massive, heavy volumes of data (e.g. millions of database records or continuous massive file uploads).\n\n**Why Other Options are Incorrect:** Small inputs (Option A) evaluate basic functional correctness, not volume stress.\n\n**Course Context:** Volume testing uncovers database index bottlenecks, disk capacity limits, and buffer overflow memory leaks."
+  },
+  {
+    "id": "w10_q9",
+    "assignmentWeek": 10,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "There are _____ stages of empirical research.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Three"
+      },
+      {
+        "id": "b",
+        "text": "Four"
+      },
+      {
+        "id": "c",
+        "text": "Five"
+      },
+      {
+        "id": "d",
+        "text": "Six"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Four') is correct because empirical research in HCI and software engineering progresses across 4 fundamental stages: 1. Formulate testable research questions and hypotheses, 2. Design the experimental protocol, 3. Execute observation and collect data, 4. Perform statistical analysis and draw conclusions.\n\n**Why Other Options are Incorrect:** Three, Five, and Six do not match the standard 4-stage empirical research framework taught in the course.\n\n**Course Context:** Following the four stages prevents post-hoc data dredging and ensures statistical validity."
+  },
+  {
+    "id": "w10_q10",
+    "assignmentWeek": 10,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "Data we get from observation is ________ data.",
+    "options": [
+      {
+        "id": "b",
+        "text": "Empirical"
+      },
+      {
+        "id": "c",
+        "text": "Authoritative"
+      },
+      {
+        "id": "d",
+        "text": "Experiential"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Empirical') is correct because data acquired directly through systematic sensory observation, experimental testing, or measurement in the physical world is termed Empirical Data.\n\n**Why Other Options are Incorrect:** Option A is a stray OCR artifact. Authoritative (Option C) relies on dogma/authority. Experiential (Option D) refers to subjective personal perception.\n\n**Course Context:** Empirical data forms the foundation of scientific evaluation in HCI, superseding subjective designer intuition."
+  },
+  {
+    "id": "w11_q1",
+    "assignmentWeek": 11,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "When we perform a controlled experiment to collect and analyze data on user behavior, the entire process is known as ___________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "programmable research"
+      },
+      {
+        "id": "b",
+        "text": "hypothetical research"
+      },
+      {
+        "id": "c",
+        "text": "empirical research"
+      },
+      {
+        "id": "d",
+        "text": "theoretical research"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('empirical research') is correct because conducting controlled laboratory experiments to systematically observe, record, and statistically evaluate user behavior across interface conditions is the definition of Empirical Research.\n\n**Why Other Options are Incorrect:** Programmable, hypothetical, and theoretical research describe mathematical proofs or simulations, not controlled human experiments.\n\n**Course Context:** Empirical research tests causal relationships between interface designs and user performance."
+  },
+  {
+    "id": "w11_q2",
+    "assignmentWeek": 11,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "There are broadly ___________ stages of empirical research?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two"
+      },
+      {
+        "id": "b",
+        "text": "three"
+      },
+      {
+        "id": "c",
+        "text": "four"
+      },
+      {
+        "id": "d",
+        "text": "five"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('four') is correct because empirical research consists of 4 broad stages: 1. Research Question & Hypothesis Formulation, 2. Experimental Design, 3. Data Collection, 4. Statistical Analysis & Interpretation.\n\n**Why Other Options are Incorrect:** Two, three, and five are incorrect counts for the course's empirical research stages.\n\n**Course Context:** Methodological rigor across all 4 stages is required to achieve high internal and external validity."
+  },
+  {
+    "id": "w11_q3",
+    "assignmentWeek": 11,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "Suppose we formed two research questions: RQ1: Is the new technique good? RQ2: Is our text input interface better than the text input interface provided by, say, MS Word? RQ3: Does the new interface let me enter text \u201cfaster\u201d than MS Word? We call RQ3 ____________ and RQ1 as _______________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "testable, non-testable"
+      },
+      {
+        "id": "b",
+        "text": "alternative hypothesis, null hypothesis"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('testable, non-testable') is correct because RQ3 ('Does the new interface let me enter text faster than MS Word?') is a Testable research question because 'faster' can be quantitatively measured in words-per-minute (WPM) or seconds. RQ1 ('Is the new technique good?') is Non-testable because 'good' is vague, subjective, and undefined.\n\n**Why Other Options are Incorrect:** Alternative and null hypotheses (Option B) are statistical formalizations of testable questions, not classifications of research questions.\n\n**Course Context:** A valid scientific research question must be operationalized with measurable metrics."
+  },
+  {
+    "id": "w11_q4",
+    "assignmentWeek": 11,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "When we form a hypothesis, essentially stating that the test condition is not going to affect the outcome (judgment). This hypothesis is called ____________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "null hypothesis"
+      },
+      {
+        "id": "b",
+        "text": "alternative hypothesis"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('null hypothesis') is correct because the Null Hypothesis (H0) is the baseline proposition stating that the manipulated independent variable will have NO effect on the outcome (any observed difference is due purely to random sampling error).\n\n**Why Other Options are Incorrect:** The Alternative Hypothesis (Option B, H1) predicts that there IS a real, significant difference caused by the experimental treatment.\n\n**Course Context:** In significance testing, statistical tests evaluate whether the evidence is strong enough to reject the null hypothesis."
+  },
+  {
+    "id": "w11_q5",
+    "assignmentWeek": 11,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "In ____________, we assign some (arbitrary) codes to attributes of observational data.",
+    "options": [
+      {
+        "id": "b",
+        "text": "ordinal"
+      },
+      {
+        "id": "c",
+        "text": "interval"
+      },
+      {
+        "id": "d",
+        "text": "ratio"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('1 Point' - Nominal scale) is correct because assigning arbitrary numerical or symbolic codes to observational attributes without any mathematical order or magnitude (e.g. 1 = Male, 2 = Female, or 1 = Mouse, 2 = Touchpad) is the definition of a Nominal Measurement Scale. (Note: Option A is the official accepted key in NPTEL).\n\n**Why Other Options are Incorrect:** Ordinal data (Option B) conveys ranked order (e.g. 1st, 2nd, 3rd). Interval data (Option C) has equal distances between points. Ratio data (Option D) has a true zero point.\n\n**Course Context:** Stevens' four levels of measurement are: Nominal, Ordinal, Interval, and Ratio."
+  },
+  {
+    "id": "w11_q6",
+    "assignmentWeek": 11,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "Recording data from a thermometer is an example of interval scaled data.",
+    "options": [
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A is correct because temperature measured on a thermometer (Celsius or Fahrenheit) is the textbook definition of Interval Scaled Data: distances between degrees are equal, but the zero point (0\u00b0C) is arbitrary and does not represent the complete absence of heat.\n\n**Why Other Options are Incorrect:** Option B ('False') is incorrect because Celsius/Fahrenheit temperature is universally classified as interval data (unlike Kelvin which is ratio scale).\n\n**Course Context:** Because interval data lacks an absolute zero, you can state that 30\u00b0C is 10\u00b0 warmer than 20\u00b0C, but NOT that 30\u00b0C is 'twice as hot' as 15\u00b0C."
+  },
+  {
+    "id": "w11_q7",
+    "assignmentWeek": 11,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "____________ are variables that influence both the independent and dependent variables in a study, potentially leading to incorrect conclusions about the relationship between the two.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dependent variables"
+      },
+      {
+        "id": "b",
+        "text": "Independent variables"
+      },
+      {
+        "id": "c",
+        "text": "Confounding variables"
+      },
+      {
+        "id": "d",
+        "text": "Control variables"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('Confounding variables') is correct because Confounding Variables are extraneous, uncontrolled factors that correlate with both the independent and dependent variables, introducing systematic bias and misleading causal conclusions.\n\n**Why Other Options are Incorrect:** Dependent variables (Option A) are the measured metrics. Independent variables (Option B) are the factors manipulated by researchers. Control variables (Option D) are variables deliberately held constant.\n\n**Course Context:** For example, in comparing typing speed across two interfaces, participant prior typing expertise is a major confound that must be controlled through counterbalancing."
+  },
+  {
+    "id": "w11_q8",
+    "assignmentWeek": 11,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "For any pilot study (or small-scale studies), 5 is probably a good number.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because in qualitative pilot usability studies and formative testing, Jakob Nielsen's mathematical research curve demonstrated that 5 participants uncover approximately 85% of usability flaws.\n\n**Why Other Options are Incorrect:** Option B is incorrect because testing 5 users is the gold standard for quick discount pilot iterations.\n\n**Course Context:** Running multiple small tests with 5 participants each and iterating between runs is far more effective than running one massive test with 25 users at the end."
+  },
+  {
+    "id": "w11_q9",
+    "assignmentWeek": 11,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "To draw reliable conclusions from empirical data, we should use between ____________ and _____________ participants.",
+    "options": [
+      {
+        "id": "a",
+        "text": "1, 5"
+      },
+      {
+        "id": "b",
+        "text": "2, 5"
+      },
+      {
+        "id": "c",
+        "text": "12, 25"
+      },
+      {
+        "id": "d",
+        "text": "10, 12"
+      }
+    ],
+    "correctAnswers": [
+      "c"
+    ],
+    "explanation": "**Why it's Correct:** Option C ('12, 25') is correct because in quantitative empirical experiments in HCI, achieving statistical significance and adequate statistical power (power >= 0.80) typically requires between 12 and 25 participants per experimental group.\n\n**Why Other Options are Incorrect:** 1 to 5 participants (Options A and B) are far too few for quantitative inferential statistics (t-tests, ANOVA) due to high variance. 10 to 12 is borderline.\n\n**Course Context:** Using 12 to 24 participants allows standard counterbalancing designs (e.g. Balanced Latin Square) to eliminate order effects."
+  },
+  {
+    "id": "w11_q10",
+    "assignmentWeek": 11,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "When we distribute the tasks to participants in the way explained above, we call the study as ____________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "between-subject"
+      },
+      {
+        "id": "b",
+        "text": "within-subject"
+      },
+      {
+        "id": "c",
+        "text": "uni-subject"
+      },
+      {
+        "id": "d",
+        "text": "center-subject"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('between-subject') is correct because when participants are partitioned into separate distinct groups such that each group tests ONLY ONE interface condition, the experimental design is classified as a Between-Subjects (independent measures) study.\n\n**Why Other Options are Incorrect:** Within-subject (Option B) occurs when EVERY participant tests ALL conditions. Uni-subject and center-subject are non-existent terms.\n\n**Course Context:** Between-subjects designs eliminate learning and fatigue carryover effects between conditions, but require larger sample sizes."
+  },
+  {
+    "id": "w12_q1",
+    "assignmentWeek": 12,
+    "questionNumber": 1,
+    "type": "single",
+    "prompt": "With the significance test, we try to ______________ the null hypothesis.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Accept"
+      },
+      {
+        "id": "b",
+        "text": "Refute"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Refute') is correct because in inferential statistical significance testing, the scientific method attempts to REFUTE (reject) the null hypothesis (H0). If H0 is rejected (p < 0.05), we accept the alternative hypothesis (H1) that the design change produced a real effect.\n\n**Why Other Options are Incorrect:** Scientists never set out to 'accept' the null hypothesis (Option A); statistically, we either reject H0 or fail to reject H0.\n\n**Course Context:** Rejecting the null hypothesis confirms that the observed performance improvement is unlikely to have occurred by random luck."
+  },
+  {
+    "id": "w12_q2",
+    "assignmentWeek": 12,
+    "questionNumber": 2,
+    "type": "single",
+    "prompt": "Type I error is also known as ______________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "False positive"
+      },
+      {
+        "id": "b",
+        "text": "False negative"
+      },
+      {
+        "id": "c",
+        "text": "True positive"
+      },
+      {
+        "id": "d",
+        "text": "True negative"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('False positive') is correct because a Type I Error (alpha error) occurs when the researcher rejects a true null hypothesis\u2014claiming that an effect or difference exists when in reality it was purely random chance (a False Positive).\n\n**Why Other Options are Incorrect:** Type II Error (beta error) is a False Negative (failing to detect a real effect). True positive and true negative represent correct statistical decisions.\n\n**Course Context:** Standard significance level alpha is set at 0.05, meaning we accept a maximum 5% risk of committing a Type I error."
+  },
+  {
+    "id": "w12_q3",
+    "assignmentWeek": 12,
+    "questionNumber": 3,
+    "type": "single",
+    "prompt": "t-statistic is the ONLY way to test for statistical significance.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('False') is correct because the t-statistic (t-test) is NOT the only way to test for significance. Researchers widely use ANOVA (F-test), Chi-Square tests, Mann-Whitney U tests, Wilcoxon signed-rank tests, and Kruskal-Wallis tests depending on data distribution and variable levels.\n\n**Why Other Options are Incorrect:** Claiming t-test is the ONLY technique is mathematically incorrect.\n\n**Course Context:** When evaluating more than two conditions or factorial designs, ANOVA is required to avoid inflating family-wise error rates."
+  },
+  {
+    "id": "w12_q4",
+    "assignmentWeek": 12,
+    "questionNumber": 4,
+    "type": "single",
+    "prompt": "There are broadly two categories of the techniques for significance test: ______________ and ____________ .",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parametric and Non-parametric"
+      },
+      {
+        "id": "b",
+        "text": "t-test and non t-test"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Parametric and Non-parametric') is correct because statistical significance testing techniques are broadly classified into Parametric tests (which assume data follows a specific distribution, usually normal, e.g. t-test, ANOVA) and Non-Parametric tests (distribution-free tests used for ranked or skewed data, e.g. Mann-Whitney, Chi-Square).\n\n**Why Other Options are Incorrect:** 't-test and non t-test' (Option B) is an informal, non-scientific dichotomy.\n\n**Course Context:** Parametric tests offer higher statistical power when assumptions are met, while non-parametric tests protect against skewed outliers."
+  },
+  {
+    "id": "w12_q5",
+    "assignmentWeek": 12,
+    "questionNumber": 5,
+    "type": "single",
+    "prompt": "Project planning involves estimation of Project size, Cost, Duration and Effort.",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because project planning in software engineering fundamentally revolves around estimating four core interdependent parameters: Project Size (KLOC, Function Points), Cost (budget), Duration (calendar time/schedule), and Effort (person-months).\n\n**Why Other Options are Incorrect:** Option B is incorrect because these four parameters constitute the classic project estimation quadruple.\n\n**Course Context:** Effort estimation directly drives project cost and team staffing schedules."
+  },
+  {
+    "id": "w12_q6",
+    "assignmentWeek": 12,
+    "questionNumber": 6,
+    "type": "single",
+    "prompt": "COCOMO stands for ________________.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conducive Cost Estimation Model"
+      },
+      {
+        "id": "b",
+        "text": "Constructive Cost Estimation Model"
+      },
+      {
+        "id": "c",
+        "text": "Constructive Category Estimation Model"
+      },
+      {
+        "id": "d",
+        "text": "Conducive Category Estimation Model"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Constructive Cost Estimation Model') is correct because COCOMO stands for Constructive Cost Estimation Model, an algorithmic software cost estimation model developed by Barry Boehm in 1981.\n\n**Why Other Options are Incorrect:** Options A, C, and D invent incorrect words ('Conducive', 'Category') instead of 'Constructive Cost'.\n\n**Course Context:** COCOMO uses regression formulas based on project size (KLOC) to estimate development effort and schedule duration."
+  },
+  {
+    "id": "w12_q7",
+    "assignmentWeek": 12,
+    "questionNumber": 7,
+    "type": "single",
+    "prompt": "According to Boehm, software cost estimation should be done through ________________ stages.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Two"
+      },
+      {
+        "id": "b",
+        "text": "Three"
+      },
+      {
+        "id": "c",
+        "text": "Four"
+      },
+      {
+        "id": "d",
+        "text": "Five"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Three') is correct because Barry Boehm structured COCOMO into 3 distinct hierarchical levels of estimation: 1. Basic COCOMO (quick, single-variable calculation), 2. Intermediate COCOMO (incorporates 15 cost driver cost multipliers), 3. Detailed COCOMO (assesses cost drivers at each subsystem and module phase).\n\n**Why Other Options are Incorrect:** Two, Four, and Five are incorrect counts of the COCOMO estimation hierarchy.\n\n**Course Context:** Progressing from Basic to Detailed COCOMO improves estimation accuracy as architectural details crystallize."
+  },
+  {
+    "id": "w12_q8",
+    "assignmentWeek": 12,
+    "questionNumber": 8,
+    "type": "single",
+    "prompt": "Agile development ensure quick turn-around of projects",
+    "options": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('True') is correct because Agile development methods emphasize short, iterative timeboxed sprints (typically 1 to 4 weeks), continuous integration, and frequent customer feedback, ensuring rapid turnaround of working software increments.\n\n**Why Other Options are Incorrect:** Option B is incorrect because fast turnaround and adaptability to changing requirements are the defining hallmarks of the Agile manifesto.\n\n**Course Context:** Agile eliminates the multi-month delivery delays typical of rigid Waterfall projects."
+  },
+  {
+    "id": "w12_q9",
+    "assignmentWeek": 12,
+    "questionNumber": 9,
+    "type": "single",
+    "prompt": "Scrum is a _____________ method.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Traditional SDLC"
+      },
+      {
+        "id": "b",
+        "text": "Agile"
+      }
+    ],
+    "correctAnswers": [
+      "b"
+    ],
+    "explanation": "**Why it's Correct:** Option B ('Agile') is correct because Scrum is the world's most widely adopted Agile project management framework, featuring Sprints, Product Backlogs, Daily Standups, and Sprint Retrospectives.\n\n**Why Other Options are Incorrect:** Traditional SDLC (Option A) refers to sequential models like Waterfall. Option D ('1 Point') is a stray OCR label.\n\n**Course Context:** Scrum empowers cross-functional self-organizing teams to iteratively inspect and adapt."
+  },
+  {
+    "id": "w12_q10",
+    "assignmentWeek": 12,
+    "questionNumber": 10,
+    "type": "single",
+    "prompt": "In a Gantt chart the length is proportional to ___________ for activity",
+    "options": [
+      {
+        "id": "a",
+        "text": "Duration planned"
+      },
+      {
+        "id": "b",
+        "text": "Effort"
+      },
+      {
+        "id": "c",
+        "text": "Cost"
+      }
+    ],
+    "correctAnswers": [
+      "a"
+    ],
+    "explanation": "**Why it's Correct:** Option A ('Duration planned') is correct because in a Gantt Chart, horizontal bars represent project activities, and the horizontal length of each bar is directly proportional to the planned calendar duration (start date to end date) of that activity along the timeline.\n\n**Why Other Options are Incorrect:** Effort (Option B, person-hours) and Cost (Option C, money) are resource parameters, not the physical horizontal timeline axis of a Gantt chart.\n\n**Course Context:** Gantt charts visually illustrate project milestones, dependencies, and critical path schedules."
+  }
+]
